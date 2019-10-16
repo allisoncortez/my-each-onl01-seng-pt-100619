@@ -1,7 +1,9 @@
 def my_each(array)
   count = 0
   while count < array.length
-  yield (array[0])
+  my_each(array) do |word|
+      puts word
+      
   count +=1
 end
 array
