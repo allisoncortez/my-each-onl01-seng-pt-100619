@@ -4,3 +4,4 @@ def my_each(array)
   yield array
   count +=1
 end
+end
