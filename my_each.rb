@@ -1,6 +1,6 @@
 def my_each(array)
   count = 0
-  while my_each(array)
-  yield
+  while count < array.length
+  yield array
   count +=1
 end
